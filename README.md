@@ -1,4 +1,4 @@
-# Driver Behavior Clustering Project
+# Trips clustering project based on Driver Behavior  
 
 ## Project Overview
 This project aims to segment the trips in a transport company based on their drivers' driving behavior. The behavior is characterized by several features such as the number of trips per day, distance driven per day, average speed, hours driven, and the area they stop. Clustering is performed using the K-means algorithm. 
@@ -30,7 +30,7 @@ Then, the project proceeds with K-means clustering implementation. We aim to hav
 ## Results
 Based on our analysis, we found that a 3 or 5-cluster solution provides the best balance between the three metrics (distortion, silhouette score, and Calinski-Harabasz score).
 
-## Authors
+## Author
 - Didier
 
 ## License
