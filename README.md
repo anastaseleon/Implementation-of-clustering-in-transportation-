@@ -12,12 +12,9 @@ You'll need to install the following libraries before running the code:
 - `seaborn`
 - `scikit-learn`
 
-### Installation
-1. Clone the repository: `git clone https://github.com/anastaseleon/Implementation-of-clustering-in-transportation.git`
-2. Install required packages: `pip install -r requirements.txt`
 
 ## Project Description
-The project starts with an exploratory data analysis (EDA) to understand the underlying data and its distributions. 
+The project starts with some data cleaning and aggregation of all the trips,  and an exploratory data analysis (EDA) to understand the underlying data and its distributions. 
 
 The data is also processed through Principal Component Analysis (PCA). PCA is a dimensionality reduction technique that helps visualize high-dimensional data, highlight relationships between variables, and make the data more tractable for machine learning algorithms.
 
