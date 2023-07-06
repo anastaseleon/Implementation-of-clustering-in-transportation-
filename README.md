@@ -23,6 +23,7 @@ Then, the project proceeds with K-means clustering implementation. We aim to hav
 ## Files
 1. `driver_data.csv`: The raw data for a fake driver list
 2. `trip_data (3).csv`: The raw data from a real transport company (anonymized)
+3. `geotab_trips-clustering.ipynb`: the actual jupyter notebook file
 
 ## Results
 Based on our analysis, we found that a 3 or 5-cluster solution provides the best balance between the three metrics (distortion, silhouette score, and Calinski-Harabasz score).
