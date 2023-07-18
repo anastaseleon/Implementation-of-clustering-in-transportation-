@@ -21,9 +21,10 @@ The data is also processed through Principal Component Analysis (PCA). PCA is a 
 Then, the project proceeds with K-means clustering implementation. We aim to have a reasonable number of clusters while minimizing distortion. We also attempt to achieve a high silhouette score and a high Calinski-Harabasz score, although we anticipate some overlap of clusters due to the nature of driver behaviors.
 
 ## Files
-1. `driver_data.csv`: The raw data for a fake driver list
-2. `trip_data (3).csv`: The raw data from a real transport company (anonymized)
-3. `geotab_trips-clustering.ipynb`: the actual jupyter notebook file
+1. `get_geotab_data_for_machine_learning:  If your organization uses Geotab, this notebook will help you extract the data through their API
+2. `driver_data.csv`: The raw data for a fake driver list
+3. ``trip_data (3).csv`: The raw data from a real transport company (anonymized)
+4. geotab_trips-clustering.ipynb`: the actual jupyter notebook file
 
 ## Results
 Based on our analysis, we found that a 3 or 5-cluster solution provides the best balance between the three metrics (distortion, silhouette score, and Calinski-Harabasz score).
